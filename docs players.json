@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON to YAML Online Converter</title>
+    <meta content='json,yaml' name='keywords' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <meta content='follow, index' name='robots' />
+    <meta charset='utf-8' />
+    <meta content='Convert JSON to YAML and slim down your data with the json2yaml online editor' name='description' />
+    <meta content='Convert JSON to YAML and slim down your data with the json2yaml online editor' property='og:description' />
+    <meta content='Convert JSON to YAML and slim down your data with the json2yaml online editor' property='twitter:description' />
+    <meta content='JSON to YAML Online Converter' property='og:title' />
+    <meta content='Website' property='og:type' />
+    <meta content='EN' property='og:locale' />
+    <meta content='https://www.bairesdev.com/tools/json2yaml' property='og:url' />
+    <meta content='JSON to YAML Online Converter' property='og:site_name' />
+    <meta content='https://assets.bairesdev.com/image/upload/q_auto,f_auto/www/core/bairesdev_p3noeb' property='og:image' />
+    <meta content='https://assets.bairesdev.com/image/upload/q_auto,f_auto/www/core/bairesdev_p3noeb' property='og:image:secure_url' />
+    <meta content='1200' property='og:image:width' />
+    <meta content='630' property='og:image:height' />
+    <meta content='image/jpeg' property='og:image:type' />
+    <meta content='JSON to YAML Online Converter' property='twitter:title' />
+    <meta content='https://assets.bairesdev.com/image/upload/q_auto,f_auto/www/core/bairesdev_p3noeb' property='twitter:image' />
+    <link href='dist/bairesUIStyles-d168f05d1b3d5e067b2481cc39e955d5.css' rel='stylesheet' />
+    <link href='dist/app-styles.6a39ba958030de97cc3b.css' rel='stylesheet' />
+    <script src='dist/bairesUIComponents-bd1de54540957cbab6d4994164939de4.js'></script>
+    <script src='dist/app.187d17d8f6e6fffd2958.js'></script>
+    <link href='images/favicon.ico' rel='shortcut icon' />
+  </head>
+  <body>
+    <div id='app'></div><div class='pure-g justify-center'>
+  <div class='pure-u-1 w-full lg:max-w-[81.75rem] lg:mx-auto bg-[#161613]'>
+    <div class='flex flex-col md:flex-row'>
+      <div class='j pure-u-1 flex-1'>
+        <div class='grid-inner grid-left'>
+          <div class='head'>
+            <h2 class='json-head'>
+              JSON<span class='status-icon'></span>
+            </h2>
+          </div>
+          <div class='status-msg-box'>
+            <span class='status-msg-box-close'>x</span><span class='status-msg'></span>
+          </div>
+          <form action='#' method='GET'>
+            <textarea class='editor' id='json'></textarea>
+          </form>
+        </div>
+      </div>
+      <div class='y pure-u-1 flex-1'>
+        <div class='grid-inner grid-right'>
+          <div class='head'>
+            <h2 class='yaml-head'>
+              YAML<span class='status-icon'></span>
+            </h2>
+          </div>
+          <div class='status-msg-box'>
+            <span class='status-msg-box-close'>x</span><span class='status-msg'></span>
+          </div>
+          <form action='#' method='GET'>
+            <textarea class='editor' id='yaml'></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div id='footer'></div>
+    <script async='' src='https://www.googletagmanager.com/gtag/js?id=G-V7CJPTYD74'></script>
+    <script id='google-ga4'>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-V7CJPTYD74', {
+        send_page_view: true,
+        cookie_flags: "SameSite=None;Secure"
+      });
+      
+      gtag('get', 'G-V7CJPTYD74', 'client_id', function (value) {
+        gtag('set', 'user_properties', {
+          ga_client_id: value
+        });
+      });
+      
+      gtag('get', 'G-V7CJPTYD74', 'session_id', function(value) {
+        gtag('set', {
+          'ga_session_id': value
+        });
+      });
+    </script>
+    <script data-nscript='afterInteractive' id='google-tag-manager'>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-M79R6L5');
+    </script>
+    <script data-nscript='afterInteractive' src='https://tag.clearbitscripts.com/v1/pk_294cff8de127d6a203de34d5771d1f2e/tags.js'></script>
+    <script data-nscript='afterInteractive' id='mutiny-tag'>
+      (function(){var a=window.mutiny=window.mutiny||{};if(!window.mutiny.client){a.client={_queue:{}};var b=["identify","trackConversion"];var c=[].concat(b,["defaultOptOut","optOut","optIn"]);var d=function factory(c){return function(){for(var d=arguments.length,e=new Array(d),f=0;f<d;f++){e[f]=arguments[f]}a.client._queue[c]=a.client._queue[c]||[];if(b.includes(c)){return new Promise(function(b,d){a.client._queue[c].push({args:e,resolve:b,reject:d});setTimeout(d,500)})}else{a.client._queue[c].push({args:e})}}};c.forEach(function(b){a.client[b]=d(b)})}})();
+    </script>
+    <script data-cfasync='false' data-nscript='afterInteractive' src='https://client-registry.mutinycdn.com/personalize/client/3cbdefc4f1c9f2bf.js'></script>
+    <script data-nscript='afterInteractive' id='hotjar'>
+      (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2231542,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <script data-nscript='afterInteractive' id='maze-snippet'>
+      (function (m, a, z, e) {
+        var s, t;
+        try {
+        t = m.sessionStorage.getItem('maze-us');
+        } catch (err) {}  if (!t) {
+        t = new Date().getTime();
+        try {
+            m.sessionStorage.setItem('maze-us', t);
+        } catch (err) {}
+        }  s = a.createElement('script');
+        s.src = z + '?t=' + t + '&apiKey=' + e;
+        s.async = true;
+        a.getElementsByTagName('head')[0].appendChild(s);
+        m.mazeUniversalSnippetApiKey = e;
+      })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '7bb6920b-0516-4621-934f-f3761c6cb335');
+    </script>
+  </body>
+</html>
